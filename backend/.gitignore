@@ -1,0 +1,11 @@
+# Environment variables — NEVER commit these
+.env
+.env.local
+
+# Go build output
+*.exe
+*.out
+/backend-binary
+
+# macOS
+.DS_Store
